@@ -1,5 +1,14 @@
+html {
+    height: 100%;
+}
+
 body {
 	margin: 0;
+    height: 100%;
+}
+
+section.main-profile, section.blogs, section.projects {
+    min-height: 100%;
 }
 
 div.top {
@@ -90,8 +99,8 @@ div.social i{
 	margin: 0 1%;
 }
 
-div.blog-content {
-	width: 65%;
+div.blog-content, div.project-content {
+	width: 50%;
 	margin: auto;
 	text-align: center;
 	padding: 0;
@@ -104,7 +113,7 @@ div.tiles {
 div.tile {
     background-color: #efefef;
     text-align: left;
-    margin: 2% auto;
+    margin: 5% auto;
     padding: 3%;
 }
 
@@ -119,7 +128,24 @@ div.tile-description {
     color: #4A4A4A;
     font-family: Georgia, serif;
     font-size: 100%;
-    font-style: italic;
+    line-height: 1.5;
+}
+
+div.tile-links {
+    margin-top: 2%;
+}
+
+div.tile-links i{
+	color: #4A4A4A;
+	margin: 0 1%;
+}
+
+div.tile-links i.fa-github:hover{
+	color: #666666;
+}
+
+div.tile-links i.fa-external-link-square:hover{
+	color: #6aa279;
 }
 
 /* Styling for Social Media Icons */
