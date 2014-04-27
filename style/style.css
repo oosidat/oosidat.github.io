@@ -44,7 +44,7 @@ div.me img {
 	display: block;
 	height: 120px;
 	width: 120px;
-	margin-top: -60px;
+	margin-top: -65px;
 	margin-left: auto;
 	margin-right: auto;
 	border: 5px solid #9f9f9f;
@@ -213,8 +213,41 @@ div.down {
 	padding: 2%;
 	text-align: center;
 	color: #4A4A4A;
+    position: relative;
+    bottom: 0;
 }
 
+
+@media only screen and (max-width: 600px) {
+    
+    
+    div.me h2 {
+        font-size: 200%;
+    }
+    
+    div.me img {
+        height: 90px;
+        width: 90px;
+        margin-top: -50px;
+    }
+    
+    div.me h6 {
+        font-size: 100%;
+    }
+    
+    div.intro p {
+        font-size: 100%;
+    }
+    
+    div.me, div.intro, div.blog-content, div.project-content {
+        width: 90%;
+    }
+    
+    div.tile-description {
+        font-size: 110%;
+    }
+    
+}
 
 
 /*
@@ -234,6 +267,7 @@ ul li {
 
 
 
+/*
 @media only screen and (min-width: 150px) and (max-width: 600px){
 
 	div.top {
