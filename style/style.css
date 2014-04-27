@@ -124,8 +124,11 @@ div.tiles {
 div.tile {
     text-align: left;
     margin: 5% auto;
-    padding: 0 3% 0 3%;
-    border-left: 5px solid white;
+/*    padding: 0 3% 0 3%;*/
+/*    border-left: 5px solid white;*/
+    padding: 3%;
+    border: 1px solid #007bfd;
+    border-radius: 10px;
 }
 
 div.tile-unlinked {
@@ -141,7 +144,7 @@ div.tiles a {
 }
 
 div.tiles a:hover > .tile{
-    border-left: 5px solid #007bfd;
+/*    border: 5px solid #007bfd;*/
 }
 
 div.tiles a:hover > .tile > .tile-title, div.tile-unlinked > a:hover > .tile-title{
