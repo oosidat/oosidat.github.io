@@ -212,6 +212,24 @@ div.down {
 }
 
 
+@media only screen and (min-width: 1920px) {
+    div.me, div.intro, div.blog-content, div.project-content {
+        width: 1248px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    div.me, div.intro, div.blog-content, div.project-content {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    div.me, div.intro, div.blog-content, div.project-content {
+        width: 80%;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     
     
