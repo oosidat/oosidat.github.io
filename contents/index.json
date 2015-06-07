@@ -1,4 +1,36 @@
 {
   "title": "Osama Sidat",
-  "template": "index.jade"
+  "template": "index.jade",
+  "social": [
+    {
+      "url": "http://ca.linkedin.com/in/osamasidat/",
+      "title": "Visit my LinkedIn Profile",
+      "iconClass": "fa-linkedin-square"
+    },
+    {
+      "url": "http://github.com/oosidat",
+      "title": "Check out my GitHub Profile",
+      "iconClass": "fa-github"
+    },
+    {
+      "url": "http://www.facebook.com/osama.sidat",
+      "title": "Vist my Facebook page",
+      "iconClass": "fa-facebook-square"
+    },
+    {
+      "url": "http://twitter.com/SammSid",
+      "title": "Follow me on Twitter",
+      "iconClass": "fa-twitter"
+    },
+    {
+      "url": "http://instagram.com/osamasidat",
+      "title": "Follow me on Instagram",
+      "iconClass": "fa-instagram"
+    },
+    {
+      "url": "http://www.flickr.com/photos/osamasidat/",
+      "title": "Check out my photos on Flickr",
+      "iconClass": "fa-flickr"
+    }
+  ]
 }

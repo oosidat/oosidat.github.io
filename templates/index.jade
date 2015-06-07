@@ -10,5 +10,26 @@ html(lang='en')
     title=locals.title
     
   body
-    p Hello World
+    section.main-profile
+      header
+        .top
+        .me
+          img(src="images/osama.png")
+          h2 Osama Sidat
+          h6 Problem Solver
+      .social
+          each account in page.metadata.social
+            a(href="#{account.url}" title="#{account.title}" target="_blank")
+              i(class="fa fa-2x #{account.iconClass}")
+      .intro
+        p
+          | Aspiring Software Developer, with a passion for solving problems.
+          br
+          | 4th Year Computer Science @ UWaterloo.
+          br
+          | Hobbyist Photographer. Tech Enthusiast. Culinary Experimenter.
+          
+      .down
+        i(class="fa fa-angle-down fa-3x")
+        
     
