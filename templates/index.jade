@@ -32,4 +32,34 @@ html(lang='en')
       .down
         i(class="fa fa-angle-down fa-3x")
         
-    
+    section.blogs
+      .blog-header
+        .me
+          h3 Blogs
+          h6 I write about tech, cooking and life experiences
+      .blog-content
+        .tiles
+          each blog in page.metadata.blogs
+            a(href="#{blog.url}" target="_blank")
+              .tile
+                .tile-title=blog.title
+                .tile-description=blog.description
+      .down
+        i(class="fa fa-angle-down fa-3x")
+          
+    section.projects
+      .project-header
+        .me
+          h3 Projects
+          h6 Demos of my code work
+      .project-content
+        .tiles
+          each project in page.metadata.projects
+            .tile-unlinked
+              a(href="#{project.url}" target="_blank" title="#{project.hoverTitle}")
+                .tile-title=project.title
+              .tile-description=project.description
+              .tile-links
+                each link in project.links
+                  a(href="#{link.url}" title="#{link.title}" target="_blank")
+                    i(class="fa fa-2x #{link.iconClass}")
