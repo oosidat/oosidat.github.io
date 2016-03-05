@@ -1,0 +1,25 @@
+{
+  "name": "oosidat.github.io",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "scripts": {
+    "build": "wintersmith build",
+    "deploy": "gulp deploy",
+    "clean": "rm -r build",
+    "deployclean": "rm -r build; wintersmith build; gulp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oosidat/oosidat.github.io.git"
+  },
+  "author": "Osama Sidat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oosidat/oosidat.github.io/issues"
+  },
+  "homepage": "https://github.com/oosidat/oosidat.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}
